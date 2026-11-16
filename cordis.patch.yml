@@ -1,0 +1,5 @@
+# dsh-ssh bundle: one host row owns both the agent tools/Remote service and the
+# browser panel. The browser half is discovered from dsh.client in package.json.
+- insert:
+    - id: dsh-ssh
+      name: dsh-ssh
