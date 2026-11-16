@@ -8,3 +8,14 @@ node_modules/
 .env.*
 *.pem
 *.key
+
+# SSH plugin runtime data (normally lives in ~/.dsh/dsh-ssh, never in the repo)
+servers.json
+secrets.json
+known_hosts
+keys/
+askpass.sh
+
+# OpenSSH private keys have no extension; keep the matching .pub files
+id_*
+!id_*.pub
